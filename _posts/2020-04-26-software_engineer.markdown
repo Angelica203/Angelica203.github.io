@@ -1,0 +1,9 @@
+---
+layout: post
+title:      "Software Engineer?"
+date:       2020-04-27 03:33:35 +0000
+permalink:  software_engineer
+---
+
+Before I started this program, I had no idea what coding was. Infact  i just recently got introduced to coding a few months ago.  It was'nt until i kept hearing about it that i finally did some reasearch for myself to see what it was all about . Before i go any further about my interest in software Engineer let me share some of my background. Im 31 years of age, have four beautiful kids and one amazing husband. I consider myself a jack of all trades because i mastered a few things in life, such as Styling hair, Sewing and Dancing. All of them became  passionate for me, so it was hard for me to choose what i wanted to go back to school for. In between not being able to make up my mind,i became a mom  that lead to be one of my first priorities. But i began to think of my future and where i see my self in five or ten years from now. I dont want to be stuck in a loop trying to figure out what i want to do for myself. (Get it "loop)  Lol. So when i came across Flatiron School and saw  there purpose, there goal to provide a program to help build students to have a great career, i was encouraged.
+And since i started the program, completing the first mile was very challenging for me do to me being a mom of four children, facing a global pandemic and losing some family members along the way. I thank God for the strong community that Flatiron has. Especially the cohort i started with, my fellow class mates encouraged me to push through and not give up thank you for that. Well i dont know were i see myself after im done with this program but im hoping along the way i will find myself in coding. Im excited for these next ten months, I know its going to be intense but with the community i know we can get through it together  " No Trolls (students) Left Behind! " .
