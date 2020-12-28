@@ -19,39 +19,39 @@ The moment when i got confused! Within  the get pathway in our controllers we ha
 
 Rendering is a view done when  calling an erb file in a path within a controller. Erb(Embedded RuBy)is an extension  in our view files under app. Rendering a file will display that view without submitting additional requests to the server. Also rendering allows us to access instance variables through the erb file.
 
-*get  '/signin' do
+get  '/signin' do
 
-*erb*  : '*users/signin*'
+erb  : '*users/signin*'
 
-*end*
-*
+end*
+
 **Redirect**
 
 Redirect is different from rendering. It sends a new get request to the server. Because of this we can't access instance variables through redirect, as those variables no longer exist once a new request has been made because of the statelessness of the server. We can use redirect when we send a request to get new  information from the user, or if we need to utilize the logic present in another path's get request.
 
   post '/signin' do
-	****
-   **     user = User.findbyusername(params[:user][:username])
-				*
-      *   if user && user.authenticate(params[:user][:password])*
+
+   user = User.findbyusername(params[:user][:username])
+			
+    if user && user.authenticate(params[:user][:password])
 				 
-  *session[:userid] *= user.id
+  session[:userid] = user.id
 	
-   *redirect to "/users/#{user.i*d}"
+   redirect to "/users/#{user.id}"
 	 
-    *else
+  else
 		
- f*lash[:message] = "Invalid Credentials. Please try 
- again."
- *
-  * redirect to '/signin'
-	 *
-   *end
+    flash[:message] = "Invalid Credentials. Please try 
+    again."
+ 
+  redirect to '/signin'
+	 
+   end
 		 
     end 
 
-*
 
 
 
-*
+
+
