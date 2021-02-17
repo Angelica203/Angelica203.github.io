@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Secure with Validations!"
-date:       2021-02-17 06:14:31 +0000
+date:       2021-02-17 01:14:32 -0500
 permalink:  secure_with_validations
 ---
 
